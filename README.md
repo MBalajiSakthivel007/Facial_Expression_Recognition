@@ -8,7 +8,7 @@
 
 ---
 
-##📌PROJECTS
+## 📌 Project 
 
 Facial Expression Recognition using CNN
 
