@@ -1,113 +1,118 @@
+# Facial Expression Recognition using CNN
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN-orange)
+![Framework](https://img.shields.io/badge/TensorFlow-Keras-red)
+![Computer Vision](https://img.shields.io/badge/OpenCV-Image%20Processing-green)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
+---
+
+##📌PROJECTS
+
 Facial Expression Recognition using CNN
-📌 Project Overview
 
-Facial Expression Recognition (FER) is a key component of Human–Computer Interaction (HCI) systems that enables machines to understand human emotions. This project implements a CNN-based facial expression recognition system enhanced with Digital Image Processing techniques to improve performance under real-world conditions such as lighting variation and noise.
+- Developed a CNN-based Facial Expression Recognition (FER) system using TensorFlow, Keras, and OpenCV to classify human emotions, a key problem in Human–Computer Interaction (HCI).
 
-❓ Why This Project?
+ - Enhanced model robustness under real-world lighting and noise conditions using digital image processing techniques such as HE, CLAHE, LBP, Canny Edge Detection, and PCA.
 
-Understanding facial expressions is essential for building intelligent, emotion-aware systems. This project was developed to gain hands-on experience in:
+ - Implemented face detection using Haar Cascade Classifier and trained the model on normalized grayscale facial images (48×48).
 
-Image preprocessing and enhancement
+ - Achieved reliable emotion prediction with confidence scores, validating performance on unseen test images.
 
-Deep learning-based emotion classification
+## 📌 Project Overview
+- Facial Expression Recognition (FER) is a key component of Human–Computer Interaction (HCI) systems that enables machines to understand human emotions.
+- This project implements a CNN-based facial expression recognition system enhanced with Digital Image Processing techniques.
+- Designed to improve performance under real-world conditions such as lighting variation and noise.
 
-Handling real-world challenges in facial analysis
+---
 
-🎯 Objectives
+## ❓ Why This Project?
+Understanding facial expressions is essential for building intelligent, emotion-aware systems.  
+This project was developed to gain hands-on experience in:
+- Image preprocessing and enhancement
+- Deep learning-based emotion classification
+- Handling real-world challenges in facial analysis
 
-Detect human faces from images
+---
 
-Classify facial expressions into emotion categories
+## 🎯 Objectives
+- Detect human faces from images
+- Classify facial expressions into emotion categories
+- Improve recognition accuracy using preprocessing techniques
 
-Improve recognition accuracy using preprocessing techniques
+---
 
-🧠 Technical Approach
-Deep Learning
+## 🧠 Technical Approach
 
-Convolutional Neural Network (CNN)
+### 🔹 Deep Learning
+- Convolutional Neural Network (CNN)
+- Implemented using TensorFlow and Keras
 
-Implemented using TensorFlow and Keras
-
-Digital Image Processing Techniques
-
-Histogram Equalization (HE)
-
-Contrast Limited Adaptive Histogram Equalization (CLAHE)
-
-Local Binary Patterns (LBP)
-
-Canny Edge Detection
-
-Principal Component Analysis (PCA)
+### 🔹 Digital Image Processing Techniques
+- Histogram Equalization (HE)
+- Contrast Limited Adaptive Histogram Equalization (CLAHE)
+- Local Binary Patterns (LBP)
+- Canny Edge Detection
+- Principal Component Analysis (PCA)
 
 These techniques enhance contrast, extract facial features, and reduce noise before classification.
 
-🧩 Model Details
+---
 
-CNN model trained on grayscale facial images
+## 🧩 Model Details
+- CNN model trained on grayscale facial images
+- Input image size: 48 × 48
+- Multiple convolution and max-pooling layers used
+- Fully connected layers for classification
+- Softmax output layer for emotion prediction
 
-Input image size: 48 × 48
+---
 
-Multiple convolution and max-pooling layers used
+## ⚙️ Model Architecture
+- Input layer (48×48 grayscale image)
+- Convolution + ReLU activation layers
+- Max Pooling layers
+- Fully Connected (Dense) layers
+- Softmax output layer
 
-Fully connected layers for classification
+---
 
-Softmax output layer for emotion prediction
+## 📂 Dataset Details
+- Facial expression image dataset (grayscale)
+- Images resized and normalized before training
+- Face detection performed using Haar Cascade Classifier
 
-⚙️ Model Architecture
+---
 
-Input layer (48×48 grayscale image)
+## 📊 Performance & Results
+- Emotion prediction with confidence score
+- Example output:
+  - **Happy: 63.1%**
+- Tested on unseen facial images for generalization
 
-Convolution + ReLU activation layers
+---
 
-Max Pooling layers
-
-Fully Connected (Dense) layers
-
-Softmax output layer
-
-📂 Dataset Details
-
-Facial expression image dataset (grayscale)
-
-Images resized and normalized before training
-
-Face detection performed using Haar Cascade Classifier
-
-📊 Performance & Results
-
-Emotion prediction with confidence score
-
-Example output:
-
-Happy: 63.1%
-
-Tested on unseen facial images for generalization
-
-
-Sample Output
-
+## 🖼️ Sample Output
 <img width="2484" height="1220" alt="image" src="https://github.com/user-attachments/assets/56d34a65-6421-41ef-9756-56bb39de9949" />
 
-🌍 Real-World Applications
+---
 
-Emotion-aware virtual assistants
+## 🌍 Real-World Applications
+- Emotion-aware virtual assistants
+- Online learning engagement analysis
+- Mental health and stress monitoring
+- Customer sentiment analysis
+- Smart surveillance systems
 
-Online learning engagement analysis
+---
 
-Mental health and stress monitoring
+## ⚠️ Limitations
+- Performance may reduce under extreme lighting conditions
+- Limited number of emotion classes
+- Accuracy depends on face alignment and image quality
 
-Customer sentiment analysis
-
-Smart surveillance systems
-
-⚠️ Limitations
-
-Performance may reduce under extreme lighting conditions
-
-Limited number of emotion classes
-
-Accuracy depends on face alignment and image quality
+---
 
 ## 🛠️ Skills & Tools Used
 
@@ -120,6 +125,8 @@ Accuracy depends on face alignment and image quality
 | Image Processing | HE, CLAHE, LBP, Canny Edge Detection |
 | Model Development | Model Training and Evaluation |
 | Version Control | Git & GitHub |
+
+---
 
 
 ▶️ How to Run the Project
