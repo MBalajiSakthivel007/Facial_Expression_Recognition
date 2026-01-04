@@ -109,21 +109,17 @@ Limited number of emotion classes
 
 Accuracy depends on face alignment and image quality
 
-🛠️ Skills & Tools Used
+## 🛠️ Skills & Tools Used
 
-Python
-
-Convolutional Neural Networks (CNN)
-
-OpenCV
-
-TensorFlow & Keras
-
-Image Processing Techniques
-
-Model Training and Evaluation
-
-Git & GitHub
+| Category | Technologies |
+|----------|-------------|
+| Programming Language | Python |
+| Deep Learning | Convolutional Neural Networks (CNN) |
+| Frameworks | TensorFlow, Keras |
+| Computer Vision | OpenCV |
+| Image Processing | HE, CLAHE, LBP, Canny Edge Detection |
+| Model Development | Model Training and Evaluation |
+| Version Control | Git & GitHub |
 
 
 ▶️ How to Run the Project
